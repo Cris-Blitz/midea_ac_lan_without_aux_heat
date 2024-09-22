@@ -1,9 +1,6 @@
-# Midea AC LAN
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
-[![Donate](https://img.shields.io/badge/donate-BuyMeCoffee-yellow.svg)](https://www.buymeacoffee.com/georgezhao2010)
-[![Stable](https://img.shields.io/github/v/release/georgezhao2010/midea_ac_lan)](https://github.com/georgezhao2010/midea_ac_lan/releases/latest)
+# Midea AC LAN without auxiliary heat feature
 
-English | [简体中文](README_hans.md)
+English
 
 Control your Midea M-Smart appliances via local area network.
 
@@ -11,11 +8,11 @@ Control your Midea M-Smart appliances via local area network.
 - Extra sensors and switches.
 - Synchronize status with the appliance by long TCP connection in time.
 
+This is a fix for https://github.com/georgezhao2010/midea_ac_lan/ by @georgezhao2010
+
 This component inspired from the repository at [@mac-zhou](https://github.com/mac-zhou/midea-msmart) which provides similar functionality for Midea air conditioners. This component include verbatim or adapted portions of the code from his great projects.
 
 Thanks also to [@NeoAcheron](https://github.com/NeoAcheron/midea-ac-py).
-
-⭐If this component is helpful for you, please star it, it encourages me a lot.
 
 ***❗Note: Home Assistant 2022.5 or higher required for this integration***
 
@@ -65,7 +62,7 @@ And more.
 | FD   | Humidifier                 | [FD.md](doc/FD.md) |
 
 # Installation
-Search 'Midea AC LAN' in HACS and install, or copy all files in `custom_components/midea_ac_lan` from [Latest Release](https://github.com/georgezhao2010/midea_ac_lan/releases/latest) to your `/custom_components/midea_ac_lan` in Home Assistant manually. 
+Copy all files in `custom_components/midea_ac_lan` to your `/custom_components/midea_ac_lan` in Home Assistant manually. 
 
 Restart Home Assistant.
 
@@ -141,9 +138,3 @@ logger:
   logs:
     custom_components.midea_ac_lan: debug
 ```
-
-# Support my works 
-
-If you like this integration, why do not you support my works by buying me a coffee?
-
-[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/georgezhao2010)
