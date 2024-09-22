@@ -8,7 +8,8 @@ Control your Midea M-Smart appliances via local area network.
 - Extra sensors and switches.
 - Synchronize status with the appliance by long TCP connection in time.
 
-This is a fix for https://github.com/georgezhao2010/midea_ac_lan/ by @georgezhao2010
+**This is a fix for https://github.com/georgezhao2010/midea_ac_lan/ by @georgezhao2010
+The auxiliary heat feature was removes to keep this integration working in HA 2024.10**
 
 This component inspired from the repository at [@mac-zhou](https://github.com/mac-zhou/midea-msmart) which provides similar functionality for Midea air conditioners. This component include verbatim or adapted portions of the code from his great projects.
 
